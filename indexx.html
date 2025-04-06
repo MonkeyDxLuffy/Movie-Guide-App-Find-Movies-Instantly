@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Movie Guide App</title>
+    <script src="https://kit.fontawesome.com/e75ad60f9d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="navbar">
+            <div class="navlogo">
+                <img src="./images.png" alt="Logo">
+                <h2>Movie Guide App</h2>
+            </div>
+
+            <div class="search">
+                <input type="text" id="input" placeholder="Search for Movie">
+                <button class="fa fa-search " id="button"></button> <!-- Search icon inside button -->
+            </div>
+        </div>
+    </nav>
+<div id="search-movie">
+    <h1>Search Movie Here</h1>
+</div>
+    <main>
+        <section>
+            <div id="movie-container">
+                <div id="img-box">
+                   
+                </div>
+
+                <div class="text-area">
+                  
+                    <h2 id="movie-title">3 Idiots</h2>
+                    <p >Rating: ⭐<span id="rating" >8.4</span></p>
+
+                    <div class="genre-container">
+                        <div id="genre1">Comedy</div>
+                        <div id="genre2">Drama</div>
+                    </div>
+
+                   
+                    <div class="movie-info">
+                        <h2>Release Date: <span id="release_date" >25 Dec 2009</span></h2>
+                        <h2>Duration: <span id="movie_duration" >170 min</span></h2>
+                        <h2>Cast: <span id="cast1">Aamir Khan</span>, <span id="cast2">Madhavan</span>, <span id="cast3">Mona Singh</span></h2>
+                        <h2>Plot: <span id="movie_plot">Two friends search for their long-lost companion, recalling their college days and the memories of their inspiring friend who changed their outlook on life.</span></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <div class="footer">
+         <p>&#169; 2025 Movie Guide</p>     
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
